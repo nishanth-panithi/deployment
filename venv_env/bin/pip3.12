@@ -1,4 +1,4 @@
-#!/Users/nishanthpanithigmail.com/django/venv_env/bin/python3.12
+#!/Users/nishanthpanithigmail.com/django/task4/deployment/venv_env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
