@@ -14,5 +14,5 @@ def sample(req):
 def reg_user(req):
     user_data=json.loads(req.body)
     # ORM- oblect relational maping
-    new_user=cloudtable.objects.create(id=user_data['id'],name=user_data['name'],email=user_data['email'],modile=user_data['mob'])
+    new_user=cloudtable.objects.create(id=user_data['id'],name=user_data['name'],email=user_data['email'],mobile=user_data['mob'])
     return JsonResponse({'status':'user created sucessfully'})
