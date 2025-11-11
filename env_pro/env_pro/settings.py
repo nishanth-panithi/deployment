@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'env_pro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',
+        'NAME': env('DB_name'),
         'USER':env('DB_username'),
         'PASSWORD':env('DB_password'),
-        'HOST':'localhost',
-        'PORT':'3306'
+        'HOST':env('DB_host'),
+        'PORT':env('DB_port')
 
     }
 }
