@@ -7,3 +7,4 @@ class cloudtable(models.Model):
     name=models.CharField(max_length=50,null=False)
     email=models.CharField(max_length=50,default="user@cloud.com")
     mobile=models.CharField(max_length=10,unique=True)
+    photo=models.URLField(default="empty")
